@@ -1,0 +1,15 @@
+// ltl-logreg/main.ltl
+//
+// Logistic regression with L-BFGS optimiser.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-logreg v0.1.0")
+    io::println("Logistic regression with L-BFGS optimiser.")
+    0
+}
